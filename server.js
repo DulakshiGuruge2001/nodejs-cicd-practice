@@ -7,7 +7,7 @@ app.set('view engine', 'ejs');
 
 // Define a route
 app.get('/', (req, res) => {
-  res.render('index', { message: "Hello from Railway CI/CD!" });
+  res.render('index', { message: "Node.js CI/CD Practice Project" });
 });
 
 // Start the server
